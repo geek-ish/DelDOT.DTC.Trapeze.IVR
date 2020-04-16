@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWebApplication2", "MVCWebApplication2.csproj", "{184B5A1B-F0C7-4088-8EA8-20E71CC5C516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTestConsoleApplication1", "..\MVCTestConsoleApplication1\MVCTestConsoleApplication1.csproj", "{4730ADFA-C82C-46CB-871A-E5AF8FD058FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{184B5A1B-F0C7-4088-8EA8-20E71CC5C516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184B5A1B-F0C7-4088-8EA8-20E71CC5C516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184B5A1B-F0C7-4088-8EA8-20E71CC5C516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184B5A1B-F0C7-4088-8EA8-20E71CC5C516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4730ADFA-C82C-46CB-871A-E5AF8FD058FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4730ADFA-C82C-46CB-871A-E5AF8FD058FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4730ADFA-C82C-46CB-871A-E5AF8FD058FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4730ADFA-C82C-46CB-871A-E5AF8FD058FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

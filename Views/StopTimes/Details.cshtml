@@ -1,0 +1,58 @@
+﻿@model MVCWebApplication2.Models.StopTime
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>StopTime</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Direction)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Direction)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Destination)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Destination)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StopId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StopId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TimeOfStop)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TimeOfStop)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Route)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Route)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.StopTimeId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

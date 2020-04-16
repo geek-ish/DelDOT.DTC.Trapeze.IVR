@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MVCWebApplication2.Models.Session>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CreationTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Passcode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PasscodeSent)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreationTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Passcode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PasscodeSent)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SessionId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SessionId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SessionId })
+        </td>
+    </tr>
+}
+
+</table>
